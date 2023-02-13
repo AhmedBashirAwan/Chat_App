@@ -2,9 +2,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custom_clippers/custom_clippers.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:whatsapp_messenger/common/enum/message_type.dart' as my_type;
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/models/message_model.dart';
+import '../../../common/enum/message_type.dart' as my_type;
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/models/message_model.dart';
 
 class MessageCard extends StatelessWidget {
   const MessageCard({

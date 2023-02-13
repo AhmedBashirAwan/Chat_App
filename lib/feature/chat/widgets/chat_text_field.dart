@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_messenger/common/enum/message_type.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
-import 'package:whatsapp_messenger/common/widgets/custom_icon_button.dart';
-import 'package:whatsapp_messenger/feature/auth/pages/image_picker_page.dart';
-import 'package:whatsapp_messenger/feature/chat/controller/chat_controller.dart';
+import '../../../common/enum/message_type.dart';
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/utils/coloors.dart';
+import '../../../common/widgets/custom_icon_button.dart';
+import '../../../feature/auth/pages/image_picker_page.dart';
+import '../../../feature/chat/controller/chat_controller.dart';
 
 class ChatTextField extends ConsumerStatefulWidget {
   const ChatTextField({

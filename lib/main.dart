@@ -2,13 +2,13 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_messenger/common/routes/routes.dart';
-import 'package:whatsapp_messenger/common/theme/dark_theme.dart';
-import 'package:whatsapp_messenger/common/theme/light_theme.dart';
-import 'package:whatsapp_messenger/feature/auth/controller/auth_controller.dart';
-import 'package:whatsapp_messenger/feature/home/pages/home_page.dart';
-import 'package:whatsapp_messenger/feature/welcome/pages/welcome_page.dart';
-import 'package:whatsapp_messenger/firebase_options.dart';
+
+import '../../../common/routes/routes.dart';
+import '../../../common/theme/light_theme.dart';
+import '../../../feature/auth/controller/auth_controller.dart';
+import '../../../feature/home/pages/home_page.dart';
+import '../../../feature/welcome/pages/welcome_page.dart';
+import '../../../firebase_options.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -30,7 +30,7 @@ class MyApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'DG ARNO',
+      title: 'Arno Chat',
       theme: lightTheme(),
       darkTheme: lightTheme(),
       home: ref.watch(userInfoAuthProvider).when(

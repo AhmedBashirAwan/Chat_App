@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_contacts/flutter_contacts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
+import '../../../common/models/user_model.dart';
 
 final contactsRepositoryProvider = Provider(
   (ref) {

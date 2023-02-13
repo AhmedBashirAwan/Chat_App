@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
+import '../../../common/extension/custom_theme_extension.dart';
 
 class ShowDateCard extends StatelessWidget {
   const ShowDateCard({Key? key, required this.date}) : super(key: key);

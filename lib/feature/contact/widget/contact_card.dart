@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/models/user_model.dart';
 
 import '../../../common/utils/coloors.dart';
 

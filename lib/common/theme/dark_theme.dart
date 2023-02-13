@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
+import '../../common/extension/custom_theme_extension.dart';
+import '../../common/utils/coloors.dart';
 
 ThemeData darkTheme() {
   final ThemeData base = ThemeData.dark();

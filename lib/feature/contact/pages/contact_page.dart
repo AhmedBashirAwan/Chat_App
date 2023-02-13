@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
-import 'package:whatsapp_messenger/common/routes/routes.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
-import 'package:whatsapp_messenger/common/widgets/custom_icon_button.dart';
-import 'package:whatsapp_messenger/feature/contact/controller/contacts_controller.dart';
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/models/user_model.dart';
+import '../../../common/routes/routes.dart';
+import '../../../common/utils/coloors.dart';
+import '../../../common/widgets/custom_icon_button.dart';
+import '../../../feature/contact/controller/contacts_controller.dart';
 
 import '../widget/contact_card.dart';
 

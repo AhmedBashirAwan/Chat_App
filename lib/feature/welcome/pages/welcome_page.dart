@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/routes/routes.dart';
-
+import '../../../common/routes/routes.dart';
 import '../../../common/widgets/custom_elevated_button.dart';
-import '../widgets/language_button.dart';
-import '../widgets/privacy_and_terms.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});

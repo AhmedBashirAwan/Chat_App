@@ -1,4 +1,5 @@
-import 'package:whatsapp_messenger/common/enum/message_type.dart';
+
+import '../enum/message_type.dart';
 
 class MessageModel {
   final String senderId;

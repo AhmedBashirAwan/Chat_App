@@ -6,16 +6,16 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
-import 'package:whatsapp_messenger/common/routes/routes.dart';
-import 'package:whatsapp_messenger/common/widgets/custom_icon_button.dart';
-import 'package:whatsapp_messenger/feature/auth/controller/auth_controller.dart';
-import 'package:whatsapp_messenger/feature/chat/controller/chat_controller.dart';
-import 'package:whatsapp_messenger/feature/chat/widgets/chat_text_field.dart';
-import 'package:whatsapp_messenger/feature/chat/widgets/message_card.dart';
-import 'package:whatsapp_messenger/feature/chat/widgets/show_date_card.dart';
-import 'package:whatsapp_messenger/feature/chat/widgets/yellow_card.dart';
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/models/user_model.dart';
+import '../../../common/routes/routes.dart';
+import '../../../common/widgets/custom_icon_button.dart';
+import '../../../feature/auth/controller/auth_controller.dart';
+import '../../../feature/chat/controller/chat_controller.dart';
+import '../../../feature/chat/widgets/chat_text_field.dart';
+import '../../../feature/chat/widgets/message_card.dart';
+import '../../../feature/chat/widgets/show_date_card.dart';
+import '../../../feature/chat/widgets/yellow_card.dart';
 
 import '../../../common/helper/last_seen_message.dart';
 

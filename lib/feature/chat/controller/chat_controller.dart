@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_messenger/common/enum/message_type.dart';
-import 'package:whatsapp_messenger/common/models/last_message_model.dart';
-import 'package:whatsapp_messenger/common/models/message_model.dart';
-import 'package:whatsapp_messenger/feature/auth/controller/auth_controller.dart';
-import 'package:whatsapp_messenger/feature/chat/repository/chat_repository.dart';
+import '../../../common/enum/message_type.dart';
+import '../../../common/models/last_message_model.dart';
+import '../../../common/models/message_model.dart';
+import '../../../feature/auth/controller/auth_controller.dart';
+import '../../../feature/chat/repository/chat_repository.dart';
 
 final chatControllerProvider = Provider((ref) {
   final chatRepository = ref.watch(chatRepositoryProvider);

@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:157371465900:android:ecd2366ca5a708cdc99f09",
         "android_client_info": {
-          "package_name": "com.example.whatsapp_messenger"
+          "package_name": "com.dgarno.messenger"
         }
       },
       "oauth_client": [

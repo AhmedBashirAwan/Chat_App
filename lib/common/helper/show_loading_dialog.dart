@@ -1,6 +1,7 @@
+import 'package:arno_chat/common/extension/custom_theme_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
+
+import '../utils/coloors.dart';
 
 showLoadingDialog({
   required BuildContext context,

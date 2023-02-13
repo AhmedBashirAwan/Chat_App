@@ -2,8 +2,8 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/widgets/custom_icon_button.dart';
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/widgets/custom_icon_button.dart';
 
 class ImagePickerPage extends StatefulWidget {
   const ImagePickerPage({super.key});

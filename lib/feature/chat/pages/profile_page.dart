@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/helper/last_seen_message.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
-import 'package:whatsapp_messenger/common/widgets/custom_icon_button.dart';
-import 'package:whatsapp_messenger/feature/chat/widgets/custom_list_tile.dart';
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/helper/last_seen_message.dart';
+import '../../../common/models/user_model.dart';
+import '../../../common/utils/coloors.dart';
+import '../../../common/widgets/custom_icon_button.dart';
+import '../../../feature/chat/widgets/custom_list_tile.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key, required this.user});

@@ -2,12 +2,13 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
-import 'package:whatsapp_messenger/common/models/last_message_model.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
-import 'package:whatsapp_messenger/common/routes/routes.dart';
-import 'package:whatsapp_messenger/common/utils/coloors.dart';
-import 'package:whatsapp_messenger/feature/chat/controller/chat_controller.dart';
+
+import '../../../common/extension/custom_theme_extension.dart';
+import '../../../common/models/last_message_model.dart';
+import '../../../common/models/user_model.dart';
+import '../../../common/routes/routes.dart';
+import '../../../common/utils/coloors.dart';
+import '../../../feature/chat/controller/chat_controller.dart';
 
 class ChatHomePage extends ConsumerWidget {
   const ChatHomePage({super.key});

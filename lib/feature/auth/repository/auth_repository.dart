@@ -3,11 +3,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_messenger/common/helper/show_alert_dialog.dart';
-import 'package:whatsapp_messenger/common/helper/show_loading_dialog.dart';
-import 'package:whatsapp_messenger/common/models/user_model.dart';
-import 'package:whatsapp_messenger/common/repository/firebase_storage_repository.dart';
-import 'package:whatsapp_messenger/common/routes/routes.dart';
+import '../../../common/helper/show_alert_dialog.dart';
+import '../../../common/helper/show_loading_dialog.dart';
+import '../../../common/models/user_model.dart';
+import '../../../common/repository/firebase_storage_repository.dart';
+import '../../../common/routes/routes.dart';
 
 final authRepositoryProvider = Provider((ref) {
   return AuthRepository(
