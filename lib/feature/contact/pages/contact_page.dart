@@ -127,7 +127,7 @@ class ContactPage extends ConsumerWidget {
                               vertical: 10,
                             ),
                             child: Text(
-                              'Invite to DG ARNO',
+                              'Invite to Arno Chat',
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 color: context.theme.greyColor,

@@ -45,7 +45,7 @@ class _HomePageState extends ConsumerState<HomePage> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text(
-            'DG ARNO',
+            'Arno Chat',
             style: TextStyle(letterSpacing: 1),
           ),
           elevation: 1,

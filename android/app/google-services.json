@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "157371465900",
-    "firebase_url": "https://whatsapp-chat-app-id-default-rtdb.firebaseio.com",
-    "project_id": "whatsapp-chat-app-id",
-    "storage_bucket": "whatsapp-chat-app-id.appspot.com"
+    "project_number": "198549871873",
+    "project_id": "dg-arno-87e36",
+    "storage_bucket": "dg-arno-87e36.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:157371465900:android:ecd2366ca5a708cdc99f09",
+        "mobilesdk_app_id": "1:198549871873:android:4ae1ad4c4fee0f0fc58f00",
         "android_client_info": {
           "package_name": "com.dgarno.messenger"
         }
       },
       "oauth_client": [
         {
-          "client_id": "157371465900-efh0iaf2p4h0ou54qnu4059klp7rhlss.apps.googleusercontent.com",
+          "client_id": "198549871873-fajunntbuv5sruv44pket2631fghqpcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dgarno.messenger",
+            "certificate_hash": "c14a8abcd741655ed12ad8ea9232e767b0db2a6a"
+          }
+        },
+        {
+          "client_id": "198549871873-2lohpht087s34kdpfl90vjaipb2ihsbv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAc_Aj42_l1y7oOCMSPRQs-6bO3GHZWA2s"
+          "current_key": "AIzaSyBxDfjpswT3oAQ_bSTH8IX6aTu8mry_3-g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "157371465900-efh0iaf2p4h0ou54qnu4059klp7rhlss.apps.googleusercontent.com",
+              "client_id": "198549871873-2lohpht087s34kdpfl90vjaipb2ihsbv.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "157371465900-5d92glon5cq0mh0ccg5qc6ijgohlbo8m.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.whatsappMessenger"
-              }
             }
           ]
         }

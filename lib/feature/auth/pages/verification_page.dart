@@ -62,14 +62,14 @@ class VerificationPage extends ConsumerWidget {
                   children: [
                     const TextSpan(
                       text:
-                          "You've tried to register +251935838471. before requesting an SMS kindly recheck the number.",
+                          "Before requesting an SMS kindly recheck the number.",
                     ),
-                    TextSpan(
-                      text: "Wrong number?",
-                      style: TextStyle(
-                        color: context.theme.blueColor,
-                      ),
-                    ),
+                    // TextSpan(
+                      // text: "Wrong number?",
+                      // style: TextStyle(
+                      //   color: context.theme.blueColor,
+                      // ),
+                    // ),
                   ],
                 ),
               ),

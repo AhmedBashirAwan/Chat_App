@@ -137,14 +137,14 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                   color: context.theme.greyColor,
                   height: 1.5,
                 ),
-                children: [
-                  TextSpan(
-                    text: "What's my number?",
-                    style: TextStyle(
-                      color: context.theme.blueColor,
-                    ),
-                  ),
-                ],
+                // children: [
+                //   TextSpan(
+                //     text: "What's my number?",
+                    // style: TextStyle(
+                    //   color: context.theme.blueColor,
+                    // ),
+                  // ),
+                // ],
               ),
             ),
           ),
@@ -189,12 +189,12 @@ class _LoginPageState extends ConsumerState<LoginPage> {
             ),
           ),
           const SizedBox(height: 20),
-          Text(
-            'Carrier charges may apply',
-            style: TextStyle(
-              color: context.theme.greyColor,
-            ),
-          ),
+          // Text(
+          //   'Carrier charges may apply',
+          //   style: TextStyle(
+          //     color: context.theme.greyColor,
+          //   ),
+          // ),
         ],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
