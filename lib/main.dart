@@ -13,9 +13,14 @@ import '../../../firebase_options.dart';
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  try {
+    await Firebase.initializeApp(
+      name:"arno-chat",
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    print(e);
+  }
   runApp(
     const ProviderScope(
       child: MyApp(),
@@ -34,20 +39,20 @@ class MyApp extends ConsumerWidget {
       theme: lightTheme(),
       darkTheme: lightTheme(),
       home: ref.watch(userInfoAuthProvider).when(
-            data: (user) {
-              FlutterNativeSplash.remove();
-              if (user == null) return const WelcomePage();
-              return const HomePage();
-            },
-            error: (error, trace) {
-              return const Scaffold(
-                body: Center(
-                  child: Text('Something wrong happened'),
-                ),
-              );
-            },
-            loading: () => const SizedBox(),
-          ),
+        data: (user) {
+          FlutterNativeSplash.remove();
+          if (user == null) return const WelcomePage();
+          return const HomePage();
+        },
+        error: (error, trace) {
+          return const Scaffold(
+            body: Center(
+              child: Text('Something wrong happened'),
+            ),
+          );
+        },
+        loading: () => const SizedBox(),
+      ),
       onGenerateRoute: Routes.onGenerateRoute,
     );
   }
