@@ -201,7 +201,7 @@ class _ChatTextFieldState extends ConsumerState<ChatTextField> {
                   minLines: 1,
                   onChanged: (value) {
                     value.isEmpty
-                        ? setState(() => isMessageIconEnabled = false)
+                        ? setState(() => isMessageIconEnabled = true) //TODO mark false to enable mic
                         : setState(() => isMessageIconEnabled = true);
                   },
                   decoration: InputDecoration(
@@ -225,7 +225,7 @@ class _ChatTextFieldState extends ConsumerState<ChatTextField> {
                         iconColor: Theme.of(context).listTileTheme.iconColor,
                       ),
                     ),
-                    suffixIcon: Row(
+                    /*suffixIcon: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         RotatedBox(
@@ -244,7 +244,7 @@ class _ChatTextFieldState extends ConsumerState<ChatTextField> {
                           iconColor: Theme.of(context).listTileTheme.iconColor,
                         ),
                       ],
-                    ),
+                    ),*/
                   ),
                 ),
               ),

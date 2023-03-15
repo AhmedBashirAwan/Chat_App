@@ -100,6 +100,7 @@ class ChatPage extends ConsumerWidget {
           ),
         ),
         actions: [
+/*
           CustomIconButton(
             onPressed: () {},
             icon: Icons.video_call,
@@ -110,16 +111,19 @@ class ChatPage extends ConsumerWidget {
             icon: Icons.call,
             iconColor: Colors.white,
           ),
+
           CustomIconButton(
             onPressed: () {},
             icon: Icons.more_vert,
             iconColor: Colors.white,
           ),
+          */
         ],
       ),
       body: Stack(
         children: [
           // chat background image
+/*
           Image(
             height: double.maxFinite,
             width: double.maxFinite,
@@ -127,6 +131,7 @@ class ChatPage extends ConsumerWidget {
             fit: BoxFit.cover,
             color: context.theme.chatPageDoodleColor,
           ),
+*/
           // Stream of Chat
           Padding(
             padding: const EdgeInsets.only(bottom: 60),
@@ -201,7 +206,7 @@ class ChatPage extends ConsumerWidget {
 
                       return Column(
                         children: [
-                          if (index == 0) const YellowCard(),
+                          // if (index == 0) const YellowCard(),
                           if (isShowDateCard) ShowDateCard(date: message.timeSent),
                           MessageCard(
                             isSender: isSender,

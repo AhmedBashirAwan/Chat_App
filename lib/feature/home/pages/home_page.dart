@@ -64,13 +64,13 @@ class _HomePageState extends ConsumerState<HomePage> {
           //   ],
           // ),
         ),
-        body: const TabBarView(
-          children: [
-            ChatHomePage(),
-            StatusHomePage(),
-            CallHomePage(),
-          ],
-        ),
+        // body: const TabBarView(
+        //   children: [
+        //     ChatHomePage(),
+        //     StatusHomePage(),
+        //     CallHomePage(),
+        //   ],
+        body: const ChatHomePage(),
       ),
     );
   }
